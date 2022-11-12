@@ -1,14 +1,14 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   number: 10,
-  string: 'Hello Znjs!',
+  string: "Hello Znjs!",
   loading: false,
   error: false,
 };
 
 const demoSlice = createSlice({
-  name: 'demo',
+  name: "demo",
   initialState,
   reducers: {
     updateNumber: (state, action) => {
